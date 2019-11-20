@@ -52,7 +52,12 @@
         @mixin atMedium {
             font-size: 1rem;
             padding: 12px 0;
+            margin-right: 10px;
             background-color: transparent;
+
+            &.is-current-link {
+                color: #faab69;
+            }
         }
     }
 
